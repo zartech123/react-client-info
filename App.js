@@ -21,20 +21,17 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    //axios.get('https://api.ipify.org?format=json')
-    axios
-      .get("https://ipapi.co/json")
-      .then((response) =>
-        this.setState({
-          version: response.data.version,
-          ipAddress: response.data.ip,
-          country: response.data.country_name,
-          region: response.data.region,
-          city: response.data.city,
-          org: response.data.org,
-          asn: response.data.asn,
-        })
-      );
+    axios.get("https://ipapi.co/json").then((response) =>
+      this.setState({
+        version: response.data.version,
+        ipAddress: response.data.ip,
+        country: response.data.country_name,
+        region: response.data.region,
+        city: response.data.city,
+        org: response.data.org,
+        asn: response.data.asn,
+      })
+    );
   }
 
   render() {
