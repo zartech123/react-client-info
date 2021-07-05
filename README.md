@@ -1,7 +1,7 @@
 # react-client-info
-React JS application that provide Information such as IP Address, Memory, Client Device, Battery and Network Downlink Speed
+React JS application that provide Information such as IP Address, Memory, Client Device, Battery and Network Downlink Speed from Client.
 
-There are several information that capture from Client
+There are several information that captured :
 
 - IP Address and Client Device 
 This Application use API from https://ipapi.co/json to get some information such as :
