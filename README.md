@@ -23,4 +23,3 @@ This Application utilize the Navigator Library which supported by several browse
 Please refer to this link https://developer.mozilla.org/en-US/docs/Web/API/Navigator/deviceMemory to get detail implementation
 
 
-- 
