@@ -310,7 +310,7 @@ function SvgIconsSize() {
               &nbsp;
               <strong>
                 <span style={{ color: "#f0ad4e", fontSize: "18px" }}>
-                  Contact Us
+                  Contact Again
                 </span>
               </strong>
               &nbsp;
