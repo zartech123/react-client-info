@@ -310,7 +310,7 @@ function SvgIconsSize() {
               &nbsp;
               <strong>
                 <span style={{ color: "#f0ad4e", fontSize: "18px" }}>
-                  About
+                  Contact Us
                 </span>
               </strong>
               &nbsp;
@@ -338,8 +338,4 @@ function SvgIconsSize() {
   );
 }
 
-ReactDOM.render(
-  // Try changing to isLoggedIn={true}:
-  <SvgIconsSize />,
-  document.getElementById("root")
-);
+ReactDOM.render(<SvgIconsSize />, document.getElementById("root"));
